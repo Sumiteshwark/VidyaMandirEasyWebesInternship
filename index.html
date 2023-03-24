@@ -39,6 +39,13 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
     <!--Loading Area Start-->
     <div class="loading">
       <div class="text-center middle">
@@ -239,9 +246,27 @@
               </div>
               <div class="col-lg-5">
                 <!--About Image Area Start-->
-                <div class="about-image-area img-full">
-                  <img src="img/about/about1.jpg" alt="" />
+                <!-- <div class="about-image-area img-full"> -->
+                <!-- <img src="img/about/about1.jpg" alt="" /> -->
+                <h1>Notification panel</h1>
+                <div class="mar">
+                  <marquee
+                    width="100%"
+                    behavior="scroll"
+                    direction="up"
+                    scrollamount="1"
+                    bgcolor="white"
+                  >
+                    <div class="marin">
+                      <p>✔️ First notification</p>
+                      <p>✔️ Second notification</p>
+                      <p>✔️ Third notification</p>
+                      <p>✔️ Fourth notification</p>
+                      <p>✔️ Fifth notification</p>
+                    </div>
+                  </marquee>
                 </div>
+                <!-- </div> -->
                 <!--About Image Area End-->
               </div>
             </div>
