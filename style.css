@@ -4722,6 +4722,137 @@ thead {
 
 
 
+.total_course{
+	width: 70%;
+	margin: 50px auto;
+	box-shadow: 2px 4px 3px 2px gainsboro;
+	border-radius: 7px;
+	padding: 20px 15px;
+}
+
+.total_course h4{
+	font-weight: 500;
+}
+
+.course_top_class, .course_top_stream{
+	border: 1px solid;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: #3d9ae2;
+    display: inline-block;
+    margin: 0 8px 15px 0;
+    font-size: 18px;
+	font-weight: 500;
+}
+
+.course_heading{
+	margin-bottom: 15px;
+}
+.course_heading h2{
+	margin-bottom: 10px;
+	color: #1c1950;
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.course_heading h4{
+	font-size: 1.4rem;
+	color: #231e7c;
+}
+
+.course_duration{
+	padding: 10px 0;
+	border-top: 1px solid #3d9ae2;
+	border-bottom: 1px solid #3d9ae2;
+}
+.course_duration h4{
+	margin-bottom: 0;
+}
+
+.course_content{
+	margin: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+}
+.course_content h4{
+	margin-bottom: 10px;
+	color: #000;
+}
+
+.course_admissions{
+	padding: 12px 20px;
+    background: #ffca08;
+    border-radius: 6px;
+    color: #1f1e5a;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+	margin-right: 7px;
+	font-size: 1rem;
+}
+
+.course_demo{
+	padding: 12px 15px;
+    background: #ddd;
+    border-radius: 6px;
+    color: #1f1e5a;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+	font-size: 1rem;
+}
+
+.course_admissions:hover, .course_demo:hover{
+	transition: ease-in-out .3s;
+	background-color: black;
+	color: white;
+}
+
+@media screen and (max-width: 768px){
+	.total_course{
+		width: 90%;
+		margin: 30px auto;
+	}
+
+	.course_top_class, .course_top_stream{
+		font-size: 16px;
+	}
+
+	.course_heading{
+		margin-bottom: 10px;
+	}
+	.course_content{
+		margin: 10px 0;
+	}
+	.course_heading h2{
+		font-size: 1.3rem;
+	}
+	
+	.course_heading h4{
+		font-size: 1.1rem;
+	}
+
+	.course_duration h4{
+		font-size: 1rem;
+	}
+
+	.course_content{
+		flex-direction: column;
+	}
+	.course_content h4{
+		font-size: .9rem;
+	}
+
+	.course_admissions, .course_demo{
+		font-size: .9rem;
+	}
+}
+
+
+
+
+
 @media screen and (min-width: 576px) {
 	.col-sm-6{
 		width: 60%;
