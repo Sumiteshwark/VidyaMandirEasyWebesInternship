@@ -41,28 +41,43 @@ $(".loading").fadeOut(500);
 /*----------
      Hero Slider Active
 ------------------------------*/
-$('.hero-slider').owlCarousel({
-    smartSpeed: 1000,
-    nav: true,
-    loop: true,
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
-    autoplay: false,
-    navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
-    responsive: {
-        0: {
-            items: 1,
-            autoplay: true,
-            nav: false
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
-        }
-    }
-})
+// $('.hero-slider').owlCarousel({
+//     smartSpeed: 1000,
+//     nav: true,
+//     loop: true,
+//     animateOut: 'fadeOut',
+//     animateIn: 'fadeIn',
+//     autoplay: false,
+//     navText: ['<i class="zmdi zmdi-chevron-left"></i>', '<i class="zmdi zmdi-chevron-right"></i>'],
+//     responsive: {
+//         0: {
+//             items: 1,
+//             autoplay: true,
+//             nav: false
+//         },
+//         600: {
+//             items: 1
+//         },
+//         1000: {
+//             items: 1
+//         }
+//     }
+// })
+
+$(function() {
+    // Owl Carousel
+    var owl = $(".hero-slider");
+    owl.owlCarousel({
+      items: 1,
+      loop: true,
+      nav: true,
+      autoplay: false,
+      autoplayTimeout: 1000,
+      smartSpeed: 1000,
+      animateOut: "fadeOut",
+      animateIn: "fadeIn",
+    });
+  });
 /*------- 
     Testimonial Slider Active 
 ----------------------------------*/
