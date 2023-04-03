@@ -3064,8 +3064,7 @@ mark {
 }
 .select {
 	display: inline-block;
-	float: left;
-	margin-right: 10px;
+	margin-right: 30px;
 	position: relative;
 }
 .select.large {
@@ -3082,6 +3081,7 @@ mark {
 	-webkit-appearance: none;
 	background: #ffffff url("img/icon/arrow.png") no-repeat scroll 92% 50%;
 	border: medium none;
+	border-radius: 7px;
 	cursor: pointer;
 	height: 42px;
 	padding: 0 16px;
@@ -4924,6 +4924,10 @@ thead {
 
 .total_course_home .course_content h2{
 	font-size: 1.3rem;
+}
+
+.form-container {
+	margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
