@@ -3972,6 +3972,84 @@ h4.small-title {
 	background: #FFAE27;
 	color: #fff;
 }
+
+/*-------------------------
+     16. syllabus Page CSS 
+---------------------------*/
+.rev_first{
+	width: 60%;
+    margin: 30px auto; 
+	padding: 20px;
+	box-shadow: 1px 3px 6px 2px rgb(215, 215, 219);
+	color: black;
+}
+.example{
+	text-align: center;
+}
+.rev_first .vcollapse-toggle{
+	width: 70%; 
+	max-width: 500px;
+	position: relative;
+	margin: 10px auto;
+	border: 1px solid rgb(185, 181, 181);
+	border-radius: 7px;
+	line-height: 2.5;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+.rev_first .vcollapse-toggle i{
+	position: absolute;
+	right: 10px;
+	line-height: 2.5;
+	color: grey;
+}
+.rev_first .bg-red-100{
+	font-weight: 400;
+	font-size: 1.1rem;
+	text-align: start;
+	margin: 10px;
+	padding: 10px;
+	box-shadow:1px 0px 2px 0px rgb(122, 122, 222);
+}
+
+@media screen and (max-width: 798px) {
+	.rev_first{
+		width: 95%;
+		margin: 30px auto; 
+		padding: 10px;
+		box-shadow: 1px 3px 6px 2px rgb(215, 215, 219);
+		color: black;
+	}
+	.example{
+		text-align: center;
+	}
+	.rev_first .vcollapse-toggle{
+		width: 90%; 
+		max-width: 500px;
+		position: relative;
+		margin: 10px auto;
+		border: 1px solid rgb(185, 181, 181);
+		border-radius: 7px;
+		line-height: 2;
+		font-weight: 500;
+		font-size: 1.1rem;
+	}
+	.rev_first .vcollapse-toggle i{
+		position: absolute;
+		right: 10px;
+		line-height: 2;
+		color: grey;
+	}
+	.rev_first .bg-red-100{
+		font-weight: 400;
+		font-size: 1rem;
+		text-align: start;
+		margin: 10px;
+		padding: 10px;
+		box-shadow:1px 0px 2px 0px rgb(122, 122, 222);
+	}
+}
+
 /*-------------------------
      16. Cart Page CSS 
 ---------------------------*/
